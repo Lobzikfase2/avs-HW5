@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Igorm/Desktop/avs_HW5/Decoder.h
+iostream
+-
+thread
+-
+string
+-
+sstream
+-
+vector
+-
+mutex
+-
+
+C:/Users/Igorm/Desktop/avs_HW5/Random.h
+string
+-
+cstdlib
+-
+ctime
+-
+
+C:/Users/Igorm/Desktop/avs_HW5/main.cpp
+iostream
+-
+string
+-
+ctime
+-
+cstring
+-
+fstream
+-
+Decoder.h
+C:/Users/Igorm/Desktop/avs_HW5/Decoder.h
+Random.h
+C:/Users/Igorm/Desktop/avs_HW5/Random.h
+
